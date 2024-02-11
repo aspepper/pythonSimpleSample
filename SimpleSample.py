@@ -1,14 +1,14 @@
 # Concatenação de strings
 name = "Alex"
 surname = "Pimenta"
-fullname = nome + " " + surname
+fullname = name + " " + surname
 
 # Impressão do resultado
 print("Nome completo:", fullname)
 
 # Substituição de texto
 message = "Olá, {name}! Bem-vindo ao DevForge."
-personalizedMessage = mensagem.format(name=name)
+personalizedMessage = message.format(name=name)
 
 # Impressão da mensagem personalizada
 print(personalizedMessage)
